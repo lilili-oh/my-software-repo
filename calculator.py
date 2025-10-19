@@ -1,2 +1,2 @@
-def add(a,b):
-  return a+b
+def add(a, b):  # 空格修正
+    return a + b  # 缩进修正
