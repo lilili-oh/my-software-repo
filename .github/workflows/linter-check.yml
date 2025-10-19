@@ -1,5 +1,4 @@
 name: Code Style Linter
-run: pytest
 
 on: [push, pull_request]
 
