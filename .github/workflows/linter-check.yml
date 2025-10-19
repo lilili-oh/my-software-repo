@@ -1,4 +1,5 @@
 name: Code Style Linter
+run: pytest
 
 on: [push, pull_request]
 
@@ -20,3 +21,7 @@ jobs:
 
       - name: Run Flake8
         run: flake8 . --count --show-source --statistics
+      - name: Lint
+        run: echo "Skipping lint for now"
+      - name: Run unit tests
+        run: pytest
